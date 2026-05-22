@@ -115,9 +115,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Technical Support Analyst",
+      company: "Samsara Networks",
+      companylogo: require("./assets/images/facebookLogo.png"), 
+      date: "Oct 2024 – Apr 2025", 
+      desc: "Delivered 100% bilingual technical support to North American enterprise fleets, managing high-volume incoming queues. Acted as a strategic mediator between enterprise management and end-users.",
+      descBullets: [
+        "De-escalated high-pressure situations with commercial drivers facing urgent regulatory and HOS issues.",
+        "Guided non-technical demographics through complex manual log edits under time-sensitive conditions."
+      ]
+    },
+    {
       role: "Customer Success & Operations Specialist",
       company: "Binance",
-      companylogo: require("./assets/images/facebookLogo.png"), // Estos logos los podemos cambiar después
+      companylogo: require("./assets/images/quoraLogo.png"), 
       date: "Nov 2023 – Sep 2024", 
       desc: "Investigated and resolved complex user escalations related to platform operations, security protocols, and fraud analysis. Delivered high-fidelity technical support for global users in a fast-paced cryptocurrency ecosystem.",
       descBullets: [
@@ -126,21 +137,21 @@ const workExperiences = {
       ]
     },
     {
-      role: "Technical Support Analyst (Telematics)",
-      company: "Samsara / Omnitracs",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "Oct 2024 – Apr 2025 (Samsara) | Oct 2021 – Jul 2022 (Omnitracs)", 
+      role: "Technical Support Specialist",
+      company: "Omnitracs",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Oct 2021 – Jul 2022", 
       desc: "Provided advanced software and hardware troubleshooting for telematics devices and fleet management platforms. Specialized in resolving compliance issues related to FMCSA and HOS regulations.",
       descBullets: [
         "Managed high-stress technical calls entirely in English.",
-        "Ensured uninterrupted operations for logistics clients and coached non-technical demographics."
+        "Ensured uninterrupted operations for logistics clients."
       ]
     },
     {
       role: "IT Support / Helpdesk Specialist",
       company: "UST / Tech Mahindra / Compucom",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Feb 2019 – Jun 2024 (Combined Experience)", 
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "Feb 2019 – Jun 2024", 
       desc: "Diagnosed and resolved multi-tier hardware and software issues, ensuring minimal downtime for end-users across hospital systems and retail infrastructure. Maintained detailed tracking of technical escalations and handled Active Directory management."
     }
   ]
